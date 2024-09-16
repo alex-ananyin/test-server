@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname)));
 
 // Обработка GET-запроса на корневой URL
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'indexx.html'));
 });
 
 // Запуск сервера на порту 3000
